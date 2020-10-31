@@ -1,0 +1,105 @@
+/* ----------bg header css start------------ */
+.bg-header{
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+.bg-header ::placeholder {
+    color: white;
+  }
+.bg-header .search-bar{
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.bg-header .search-bar input:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.bg-header .logo{
+    height: 50px;
+    filter: brightness(600%);
+    margin-right: 150px;
+}
+  .bg-header .bg-nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+    font-weight: bold;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+/* -------------common css both header---------- */
+  .headerBtn{
+      background-color: #F9A51A;
+      color: #000000;
+      padding: 5px 15px;
+      margin-left: 45px;
+      border: 1px white;
+  }
+  .bg-nav, .white-nav{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ } 
+ .bg-header input, .white-header input  {
+    padding: 5px 15px;
+    background: transparent;
+    border: none;
+}
+.bg-nav li, .white-nav li{
+    display: inline;
+    margin-left: 40px;  
+  }
+  /*Logged in  user details  */
+  .user-details {
+    display: inline-block;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 16px;
+    text-align: center;
+    color: #F9A51A;
+    font-weight: bold;
+}
+  .user-details img{
+    width : 40px;
+    height : 40px;
+    border-radius: 50%;
+   
+  }
+
+  /* ----------white header css start -----------*/
+.white-header{
+    color: #000;
+    background: none !important;
+    background-image: none !important;
+}
+.white-header .logo{
+    height: 50px;
+    margin-right: 150px;
+}
+  .white-header .white-nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+  }
+ 
+/* hidden search bar*/
+.white-header .search-bar{
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+

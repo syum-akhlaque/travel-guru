@@ -1,0 +1,29 @@
+.hotel-img-section{
+    width: 47%;
+    float: left;
+    
+
+}
+.hotel-img-section img{
+    width: 270px;
+}
+.hotel-info{
+    width: 48%;
+    float: left;
+}
+.hotel-info small,.hotel-info p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6A6A6A;
+}
+
+.hotel-info h5 {
+    font-size: 19px;
+    font-weight: 400;
+}
+.hotel-info .text-muted{
+    font-size: 16px;
+}

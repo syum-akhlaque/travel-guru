@@ -1,0 +1,40 @@
+
+.home-container{
+    color: rgba(255, 255, 255, 0.699);
+    margin-top: 200px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.home-container h1{
+    
+    font-size: 60px;
+    line-height: 117px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.resort-card{
+    width: 200px;
+    height: 416px;
+    background-size: cover;
+}
+.resort div{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    
+}
+.resort div:hover{
+    box-shadow: 0px 20px 50px rgba(58, 57, 13, 0.5);
+    border: 1px solid gold;
+    border-radius: 20px;
+    transform: scale(1.03);
+    filter: brightness(130%);
+}
